@@ -5543,6 +5543,29 @@
 					<string>#D966E1</string>
 				</dict>
 			</dict>
+			<dict>
+				<key>name</key>
+				<string>HTML Text</string>
+				<key>scope</key>
+				<string>text.html.basic</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#E5F2EB</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>HTML Punctuation</string>
+				<key>scope</key>
+				<string>punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html,
+				</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#6ad98a</string>
+				</dict>
+			</dict>
 		</array>
 		<key>uuid</key>
 		<string>32bd64fa-d60a-4858-a5fc-5164cc49a2b8</string>
