@@ -2347,9 +2347,9 @@
 					<key>background</key>
 					<string>#7FFFE8FF</string>
 					<key>foreground</key>
-					<string>#008069FF</string>
+					<string>#00BE9DFF</string>
 					<key>caret</key>
-					<string>#008069FF</string>
+					<string>#00BE9DFF</string>
 				</dict>
 			</dict>
 			<dict>
@@ -2364,7 +2364,7 @@
 					<key>foreground</key>
 					<string>#7FFFE8FF</string>
 					<key>caret</key>
-					<string>#008069FF</string>
+					<string>#00BE9DFF</string>
 				</dict>
 			</dict>
 			<dict>
@@ -3601,11 +3601,11 @@
 				<key>name</key>
 				<string>mon_color</string>
 				<key>scope</key>
-				<string>mcol_008069FF</string>
+				<string>mcol_00BE9DFF</string>
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#008069FF</string>
+					<string>#00BE9DFF</string>
 					<key>foreground</key>
 					<string>#7FFFE8FF</string>
 					<key>caret</key>
@@ -3616,13 +3616,13 @@
 				<key>name</key>
 				<string>mon_text_color</string>
 				<key>scope</key>
-				<string>mcol_text_008069FF</string>
+				<string>mcol_text_00BE9DFF</string>
 				<key>settings</key>
 				<dict>
 					<key>background</key>
 					<string>#282C35FF</string>
 					<key>foreground</key>
-					<string>#008069FF</string>
+					<string>#00BE9DFF</string>
 					<key>caret</key>
 					<string>#7FFFE8FF</string>
 				</dict>
@@ -4756,7 +4756,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#008069</string>
+					<string>#D966E1</string>
 				</dict>
 			</dict>
 			<dict>
@@ -4767,7 +4767,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#008069</string>
+					<string>#D966E1</string>
 				</dict>
 			</dict>
 			<dict>
@@ -4800,7 +4800,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#4599e1</string>
+					<string>#56B6C2</string>
 				</dict>
 			</dict>
 			<dict>
@@ -4811,7 +4811,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#F99157</string>
+					<string>#E5C07B</string>
 				</dict>
 			</dict>
 			<dict>
@@ -4855,7 +4855,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#4599e1</string>
+					<string>#56B6C2</string>
 				</dict>
 			</dict>
 			<dict>
@@ -4877,7 +4877,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#E5C07B</string>
+					<string>#B5C0BA</string>
 				</dict>
 			</dict>
 			<dict>
@@ -4888,7 +4888,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#E5C07B</string>
+					<string>#B5C0BA</string>
 				</dict>
 			</dict>
 			<dict>
@@ -4989,7 +4989,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#E5C07B</string>
+					<string>#B5C0BA</string>
 				</dict>
 			</dict>
 			<dict>
@@ -5424,17 +5424,6 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>subl_new js vars</string>
-				<key>scope</key>
-				<string>source.js                          variable.other.readwrite.js</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>ABB2BF</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
 				<string>new_subl js $</string>
 				<key>scope</key>
 				<string>source.js                         meta.function-call.with-arguments.js                        variable.function.js</string>
@@ -5545,13 +5534,36 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>CSS Property Names</string>
+				<key>scope</key>
+				<string>support.type.property-name.css</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#6cd980</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>CSS Property Values</string>
+				<key>scope</key>
+				<string>support.constant.property-value.css, support.constant.color.w3c-color-name.css,
+					meta.property-value.top-right-left-bottom, string.quoted.double.css, string.quoted.single.css, string.unquoted.identifier.css</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#B5C0BA</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>HTML Text</string>
 				<key>scope</key>
 				<string>text.html.basic</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#E5F2EB</string>
+					<string>#B5C0BA</string>
 				</dict>
 			</dict>
 			<dict>
@@ -5564,6 +5576,67 @@
 				<dict>
 					<key>foreground</key>
 					<string>#6ad98a</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JS Storage</string>
+				<key>scope</key>
+				<string>storage.type.js, storage.type.function.js
+				</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#D966E1</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JS Keywords</string>
+				<key>scope</key>
+				<string>keyword.control.conditional.js, keyword.control.flow.js
+				</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#D966E1</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JS Null</string>
+				<key>scope</key>
+				<string>constant.language.null.js,
+				</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#E5C07B</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JS Strings</string>
+				<key>scope</key>
+				<string>support.constant.property-value.js,
+				string.quoted.double.js, string.quoted.single.js,
+				</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#B5C0BA</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JS Variables</string>
+				<key>scope</key>
+				<string> variable.other.readwrite.js, meta.property.object.js, meta.instance.constructor, variable.other.object.js,
+				</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#ABB2BF</string>
 				</dict>
 			</dict>
 		</array>
