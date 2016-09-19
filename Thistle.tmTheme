@@ -4862,7 +4862,7 @@
 				<key>name</key>
 				<string>Strings, Inherited Class</string>
 				<key>scope</key>
-				<string>string, constant.other.symbol, entity.other.inherited-class</string>
+				<string>string, constant.other.symbol, entity.other.inherited-class, source.css,</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
